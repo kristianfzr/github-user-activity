@@ -1,0 +1,2 @@
+[console_scripts]
+github-user-activity = github_user_activity.cli:main
