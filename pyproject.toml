@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "github-user-activity"
+version = "1.0.0"
+description = "GitHub User Activity tool."
+readme = "README.md"
+requires-python = ">=3.6"
+license = {text = "MIT"}
+authors = [
+    {name = "Kristian Kanchev"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+github-user-activity = "github_user_activity.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/kristianfzr/github-user-activity"
